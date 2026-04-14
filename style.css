@@ -1,0 +1,103 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Barrio', cursive;
+  background: #e0b8b8;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+ /*TÍTULO CENTRAL NO TOPO */
+.titulo {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 60px;
+} 
+
+/* PAINEL */
+.painel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.painel h2, .painel h3 {
+  margin: 5px 0;
+} 
+
+/* CONTEÚDO */
+.container {
+  text-align: center;
+  margin-top: 80px;
+} 
+
+/* BOTÃO */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border: none;
+  font-family: barrio;
+} 
+
+/* CÍRCULO */
+.genius {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto;
+} 
+
+/* BOTÕES */.btn {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  opacity: 0.7;
+  cursor: pointer;
+} 
+
+/* CORES */
+.rosa {
+  background: rgb(231, 127, 217);
+  top: 0;
+  left: 0;
+  border-top-left-radius: 100%;
+}
+
+.verde {
+  background: rgb(118, 240, 203);
+  top: 0;
+  right: 0;
+  border-top-right-radius: 100%;
+}
+
+.roxo {
+  background: rgb(146, 109, 247);
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 100%;
+}
+
+.azul {
+  background: rgb(133, 174, 221);
+  bottom: 0;
+  right: 0;
+  border-bottom-right-radius: 100%;
+} 
+
+/* EFEITO */
+.ativo {
+  opacity: 1;
+  filter: brightness(150%);
+} 

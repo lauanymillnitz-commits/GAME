@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Genius</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="titulo">🎮 GENIUS</h1>
+
+<div class="painel">
+  <h2 id="nivel">Nível: 0</h2>
+  <h3 id="recorde">Recorde: 0</h3>
+  <h3 id="cliques">Cliques: 0</h3>
+</div>
+
+<div class="container">
+  <button onclick="iniciar()">Iniciar</button>
+  <h2 id="status">Clique em iniciar para jogar</h2>
+
+  <div class="genius">
+    <div class="btn rosa" onclick="clicar('rosa')"></div>
+    <div class="btn verde" onclick="clicar('verde')"></div>
+    <div class="btn roxo" onclick="clicar('roxo')"></div>
+    <div class="btn azul" onclick="clicar('azul')"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
